@@ -19,10 +19,10 @@ while (slaying) {
         }
     } else {
         console.log("The dragon burned you! You're toast.");
-        slaynig = false
         if("The dragon burned you! You're toast."){
             alert("Game Over!")
-            //Makes the loop go forever and makes the computer run slow and crash
+            slaying = false
+            //Makes the loop go forever and makes the computer run slow and crash, took a lot of battery from the computer unless force quit
         }
     }
 }
