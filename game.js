@@ -9,12 +9,16 @@ while (slaying) {
         totalDamage += damageThisRound;
 
         if (totalDamage >= 4) {
-            console.log("You did it! You slew the dragon!");
+            console.log("You did it! The dragon is gone for good!");
             slaying = false;
         } else {
             youHit = Math.floor(Math.random() * 2);
         }
     } else {
         console.log("The dragon burned you! You're toast.");
+        slaynig = false
+        if("The dragon burned you! You're toast."){
+            alert("Game Over!")
+        }
     }
 }
