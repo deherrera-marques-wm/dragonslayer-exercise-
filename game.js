@@ -10,6 +10,9 @@ while (slaying) {
 
         if (totalDamage >= 4) {
             console.log("You did it! The dragon is gone for good!");
+            if("You did it! The dragon is gone for good!"){
+                alert("Dragon is dead you win! :)")
+            }
             slaying = false;
         } else {
             youHit = Math.floor(Math.random() * 2);
@@ -19,6 +22,7 @@ while (slaying) {
         slaynig = false
         if("The dragon burned you! You're toast."){
             alert("Game Over!")
+            //Makes the loop go forever and makes the computer run slow and crash
         }
     }
 }
